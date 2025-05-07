@@ -16,24 +16,29 @@ This is a Django-based backend project for an E-Commerce platform. It provides A
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```
+   bash
    git clone <repository-url>
    cd E_commerce_Api
    ```
 
 2. Create a virtual environment and activate it:
-   ```python -m venv venv
+   ```
+   python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
    ```
 
 4. Apply migrations:
-   ```python manage.py migrate
+   ```
+   python manage.py migrate
    ```
 
 5. Run the development server:
-   ```python manage.py runserver
+   ```
+   python manage.py runserver
    ```
